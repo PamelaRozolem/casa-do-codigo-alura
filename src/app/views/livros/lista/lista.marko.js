@@ -21,7 +21,7 @@ function render(input, out, __component, component, state) {
 
   component_globals_tag({}, out);
 
-  out.w("<h1>Listagem de Livros</h1><table><tr><td>ID</td><td>Título</td></tr>");
+  out.w("<h1> Listagem de livros </h1><table><tr><td>ID</td><td>Título</td></tr>");
 
   var for__9 = 0;
 
@@ -35,7 +35,7 @@ function render(input, out, __component, component, state) {
       "</td></tr>");
   });
 
-  out.w("</table> ");
+  out.w("</table>");
 
   init_components_tag({}, out);
 
